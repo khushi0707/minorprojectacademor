@@ -55,8 +55,94 @@ body{
 }
 
 
+header{
+    font-family: serif;
+   background-image: linear-gradient(to bottom right, coral, white,green);
+    box-shadow: 2px 2px 3px grey; 
+    opacity: .85; 
+    font-size: 50px;
+    color: orangered;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px green;
+    position:fixed;
+    top: 0;
+    height:60px;
+    width:100%;
+}
+    #a{
+        color: black;
+        font-size: 30px;
+        font-family: monospace;
+        text-shadow: 2px 2px 3px cornsilk;
+        text-decoration:underline;
+        text-decoration-style:double;  
+}
+#margin{
+    margin-top: 100px;
+}
+    
+footer{
+     background-color: orange;
+    opacity: 0.75;
+    font-size: 20px;
+    font-family: monospace;
+    color: darkgreen;
+     background-image: linear-gradient(to bottom right, coral, white,green);
+    text-shadow: 2px 2px 3px forestgreen;
+    box-shadow: -2px 2px 2px aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+     border-color:ghostwhite;
+    border-style:inset;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/13214707/pexels-photo-13214707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-attachment: scroll;
+        
+}
+
+
 #align{
     padding:20px;
+    
+}
+#align1{
+    
+    padding-left:100px;
+    padding-right: 50px;
+    box-shadow: 2px 2px 2px;
+    background-color: rgba(237, 231, 225, .3);
+    border-radius: 20px 250px 70px;
+    
+}
+.class:hover{
+    transform: scale(1.1);
+    
+}
+b{
+    color:black;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px white;
+}
+i{
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+}
+.tet:hover{
+    transform: scale(1.01);
+}
+
     
 }
 #align1{
