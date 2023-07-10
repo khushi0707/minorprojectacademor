@@ -5,12 +5,13 @@ header{
     opacity: .85; 
     font-size: 50px;
     color: orangered;
-   
-      margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 3px green;
+    position:fixed;
+    top: 0;
+    height:60px;
+    width:100%;
 }
     #a{
         color: black;
@@ -19,6 +20,9 @@ header{
         text-shadow: 2px 2px 3px cornsilk;
         text-decoration:underline;
         text-decoration-style:double;  
+}
+#margin{
+    margin-top: 100px;
 }
     
 footer{
@@ -66,6 +70,7 @@ body{
 }
 .class:hover{
     transform: scale(1.1);
+    
 }
 b{
     color:black;
